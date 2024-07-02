@@ -5,6 +5,11 @@ import { Suspense } from 'react';
 import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import RevenueChart from '@/app/ui/dashboard/revenue-chart';
 import CardWrapper from '@/app/ui/dashboard/cards';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Acme Dashboard',
+};
 
 export default async function Page() {
 
